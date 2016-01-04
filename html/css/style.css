@@ -1,0 +1,234 @@
+/*!
+ * Title: default.css
+ * Date: 09:48 16 June 2015
+ * Version: 319
+ * Copyright: Copyright (c) 1994-2015 Global Web Limited 
+ * Telephone: +44 1224 454000
+ * Web: http://www.globalweb.co.uk/
+ */
+/*****Basic Styles******/
+body {
+  margin: 0;
+  background: #FFF;
+  color: #7F7F7F; 
+  display:flex;
+  min-height: 100vh;
+  flex-direction:column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+a {
+  color: #758CB5; }
+
+h1 {
+  font-size: 180%; }
+
+h2 {
+  font-size: 160%; }
+
+h3 {
+  font-size: 140%; }
+
+h4 {
+  font-size: 120%; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300;
+  color: #758CB5; }
+.brand-logo{
+  margin-top: 7px;
+}
+
+.cf:before,
+.cf:after {
+  content: "";
+  display: table; }
+
+.cf:after {
+  clear: both; }
+
+/* For IE 6/7 (trigger hasLayout) */
+.cf {
+  zoom: 1; }
+
+.container {
+  width: 90%; }
+
+/*****Nav******/
+nav {
+  background: #3163af;
+  box-shadow: none;
+  height: 64px;
+  color: #666; }
+  nav .logo {
+    margin-top: 7px; }
+
+nav ul li {
+  margin-right: 15px; }
+
+nav ul a, nav a {
+  color: #FFF; }
+
+/*****Home Content******/
+.parallax-container {
+  height: 550px; }
+
+.floating-absolute-right {
+  bottom: 30px; }
+
+.absolute-right, .floating-absolute-right {
+  position: absolute;
+  left: 7%;
+  z-index: 1000;
+  margin: 0px; }
+
+.intro h1, .solutions h2 {
+  font-size: 280%; }
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+@-moz-keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+@keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+.fade-in {
+  opacity: 0;
+  -webkit-animation: fadeIn ease-in 1;
+  -moz-animation: fadeIn ease-in 1;
+  animation: fadeIn ease-in 1;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  animation-duration: 1s; }
+
+.fade-in.efficient {
+  -webkit-animation-delay: 0.3s;
+  -moz-animation-delay: 0.3s;
+  animation-delay: 0.3s; }
+
+.fade-in.effective {
+  -webkit-animation-delay: 1.0s;
+  -moz-animation-delay: 1.0s;
+  animation-delay: 1.0s; }
+
+.fade-in.responsive {
+  -webkit-animation-delay: 1.6s;
+  -moz-animation-delay: 1.6s;
+  animation-delay: 1.6s; }
+
+.imageText {
+  padding-top: 5%;
+  display: inline-block;
+  padding-right: 15px;
+  color: #FFF;
+  font-size: 280%;
+  font-weight: 200; }
+
+.solImg {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  overflow: hidden;
+  left: 15px;
+  display: inline-block;
+  vertical-align: middle; }
+
+.card-content .solInfo {
+  margin-left: 100px; }
+.card-content .card-title.solTitle {
+  line-height: 20pt; }
+
+.proven h2, .portfolio h2, .news h2 {
+  font-size: 200%;
+  line-height: 150%; }
+
+.techImg {
+  padding: 7% 0 0 0; }
+
+.palegreyBackground {
+  background: #F5F5F5;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-top: 1px solid #E6E6E6;
+  border-bottom: 1px solid #E6E6E6; }
+
+.step {
+  font-size: 150%;
+  margin-bottom: 0; }
+
+.goldText {
+  color: #ffa000;
+  font-size: 120%;
+  margin-bottom: 10px; }
+
+.card.small {
+  height: 220px; }
+
+.card.small .card-content {
+  height: 150px; }
+
+.gbutton.btn {
+  background: #758CB5; }
+
+.gbutton.contact {
+  margin-top: 20px; }
+
+.card .card-action a.blueText {
+  color: #758CB5; }
+
+.section .button {
+  margin-top: 20px; }
+
+.hotnews .row {
+  margin-bottom: 0; }
+.hotnews .thumbnail img {
+  border-radius: 50%; }
+
+/*****Inside Content******/
+.companyInfo {
+  font-size: 8pt;
+  line-height: 11pt;
+  color: #BBBBC9;
+  padding-top: 15px; }
+
+/*****Footer******/
+footer.page-footer {
+  margin-top: 0;
+  background: #3163af;
+  color: #FFF; }
+  footer.page-footer a {
+    color: #FFF; }
+
+.social, .footerLogo {
+  margin-top: 10px; }
+
+.social img {
+  margin: 0 3px;
+  display: inline-block; }
+
+.copyLinks, footer.page-footer .copyLinks a {
+  color: #C5DAE5;
+  font-weight: 200; }
+
+/*****Responsive******/
+@media only screen and (max-width: 992px) {
+  nav .logo {
+    float: right; } }
+@media only screen and (max-width: 420px) {
+  .container {
+    width: 100%; } }
+
+/*# sourceMappingURL=sass.4360789316225205435.default.css.map */
