@@ -1,0 +1,78 @@
+/*****Basic Styles******/
+		
+		body {
+		margin: 0;
+		background: #FAFAFA; 
+		}
+		h1 { font-size:200%; line-height: 200%; }
+		h2 { font-size:170%; line-height: 170%; }
+		h3 { font-size:140%; line-height: 140%; }
+		h1,h2,h3 {
+		margin: 0;
+	 	color: #212121;
+		}
+		a { color:#212121;}
+		a:hover { color:#C13439;}
+
+		/*****Navigation******/
+		
+                .brand-logo { margin-left: 10px; }
+                .brand-logo img { width: 130px; height: auto; }
+		nav {
+			background: #C13439;
+			padding: 7px;
+			box-shadow: none;
+			height: 75px;
+			}
+
+		h1.portalHead {
+			padding: 35px 0 20px 0;
+			line-height: 140%;
+		}
+		.gbutton.btn { 
+			width: 100%;
+		}
+		.access { padding-top: 10px; }
+		footer.page-footer { 
+		background: #C13439; 
+		color: #FFF;
+		font-size: 80%;
+		padding-bottom: 10px;
+		}
+		.btn, .btn-large {
+			background: #C13439;
+		}
+
+.icon-block {
+  padding: 0 15px;
+}
+
+/*****Content******/
+
+.leftColumn {
+background: #FFF;
+}
+nav.leftNav {
+background: transparent;
+padding: 0;
+line-height: 45px;
+}
+nav.leftNav ul li {
+float: none;
+}
+.s11.mainContent { padding-left: 30px; }
+
+h1gary { font-size: 120%; font-weight: bold; }
+
+footer.page-footer a {
+color: #FFF;
+}
+
+/*****Responsive******/
+
+@media only screen and (max-width: 992px){
+nav .brand-logo {
+right: 0px;
+left: auto;
+}
+}

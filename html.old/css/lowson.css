@@ -1,0 +1,34 @@
+#page { background-color:#161616;
+	font-family:Arial; 
+	text-align:center; 
+	font: sans-serif; 
+	 
+	margin-left:10%;
+	margin-right: 10%;
+	}
+p {
+	font-family:Arial;
+	text-align:center;
+	font:sans-serif;
+	color:white;
+	font-weight:lighter;
+	text-wrap:normal; 
+	}
+a:link {
+	background-color:none; 
+	color:Orange; 
+	font:sans-serif; 
+	text-decoration: none; 
+	font-weight:lighter;}
+	a:visited 
+	{background-color:none; 
+	color:Orange;
+	font:sans-serif;
+	text-decoration:none; 
+	font-weight:lighter;} 
+	a:hover 
+	{background-color:none; 
+	text-fill-color:Orange;
+	font:sans-serif;
+	text-decoration:underline; 
+	font-weight:lighter;}
