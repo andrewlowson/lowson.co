@@ -21,6 +21,9 @@ main {
 }
 a {
   color: #758CB5; }
+a:hover {
+  text-decoration: underline;
+}
 
 h1 {
   font-size: 180%; }
