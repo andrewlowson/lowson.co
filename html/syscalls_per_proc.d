@@ -1,4 +1,0 @@
-syscall:::entry
-{
-   @[execname] = count();
-}
