@@ -19,8 +19,11 @@ body {
 main {
   flex: 1 0 auto;
 }
-a {
-  color: #758CB5; }
+.card-action a {
+  color: #3163af; 
+}
+
+
 a:hover {
   text-decoration: underline;
 }
@@ -39,10 +42,13 @@ h4 {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
-  color: #758CB5; }
+  color: #3163af; }
 .brand-logo{
   margin-top: 7px;
+
 }
+/*color: #039be5; }*/
+  /*color: #758CB5; }*/
 
 .cf:before,
 .cf:after {
@@ -73,6 +79,13 @@ nav ul li {
 
 nav ul a, nav a {
   color: #FFF; }
+
+
+a {
+    color: #3163af;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+}
 
 /*****Home Content******/
 .parallax-container {
