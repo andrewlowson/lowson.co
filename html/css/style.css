@@ -213,6 +213,15 @@ a {
 .hotnews .thumbnail img {
   border-radius: 50%; }
 
+
+  .andrew-card {
+    height: 520px;
+    max-height: 520px;
+
+  }
+
+
+
 /*****Inside Content******/
 .companyInfo {
   font-size: 8pt;
